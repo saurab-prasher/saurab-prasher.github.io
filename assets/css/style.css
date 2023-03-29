@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #272829;
 }
 
@@ -21,15 +21,6 @@ a {
 a:hover {
   color: #37b3ed;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Raleway', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -96,7 +87,7 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #header .profile h1 a,
@@ -227,12 +218,12 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url('../img/hero-bg.jpg') top center;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
 
 #hero:before {
-  content: '';
+  content: "";
   background: rgba(5, 13, 24, 0.3);
   position: absolute;
   bottom: 0;
@@ -260,7 +251,7 @@ h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
@@ -314,7 +305,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -408,7 +399,7 @@ section {
 .facts .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #122f57;
 }
@@ -419,7 +410,7 @@ section {
   margin-top: 20px;
   color: #122f57;
   font-size: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -443,7 +434,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #050d18;
 }
 
@@ -487,7 +478,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
 }
@@ -514,7 +505,7 @@ section {
 }
 
 .resume .resume-item::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 16px;
   height: 16px;
@@ -572,7 +563,7 @@ section {
 }
 
 .portfolio .portfolio-wrap::before {
-  content: '';
+  content: "";
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   left: 0;
@@ -811,7 +802,7 @@ section {
 }
 
 .testimonials .testimonial-item p::after {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-top: 20px solid #fff;
@@ -966,7 +957,7 @@ section {
 }
 
 .contact .php-email-form .loading:before {
-  content: '';
+  content: "";
   display: inline-block;
   border-radius: 50%;
   width: 24px;
@@ -1001,7 +992,7 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type='submit'] {
+.contact .php-email-form button[type="submit"] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -1010,7 +1001,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type='submit']:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
 }
 
@@ -1062,7 +1053,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
-  content: '/';
+  content: "/";
 }
 
 @media (max-width: 768px) {
